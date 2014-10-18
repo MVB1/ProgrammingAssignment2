@@ -2,7 +2,6 @@
 # They allow retrieval of values instead of repeated computing of the inverse (i.e. if the matrix did not change)
 # They provide an excellent example how to cache potentially time-consuming computations in R
 
-
 # The makeCacheMatrix function creates a special "matrix" that can cache its inverse
 # Importantly, makeCacheMatrix() does not compute the inverse of the special "matrix"
 # It basically generates a list and contains functions that 1) set the matrix (set), 2) get the matrix (get), 
